@@ -1,0 +1,9 @@
+tailwind 
+tailwind componets
+components card
+create own components
+pass any value to components
+to handle props 
+prop basic
+extraction 
+default value
