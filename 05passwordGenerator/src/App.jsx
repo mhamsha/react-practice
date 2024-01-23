@@ -60,8 +60,15 @@ function App() {
   // * useEffect hook to generate password
   useEffect(() => {
     if (password != "") passwordGenerator();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [length, number, specialCharacters, upperCase, lowerCase, passwordGenerator]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [
+    length,
+    number,
+    specialCharacters,
+    upperCase,
+    lowerCase,
+    passwordGenerator,
+  ]);
 
   return (
     <>
