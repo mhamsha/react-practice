@@ -88,15 +88,15 @@ function App() {
             />
             <button
               className="h-12 rounded-lg py-3 ml-3 px-5  bg-gray-900 text-gray-200 text-sm font-serif"
-              onClick={copyPassToClipboard}
-            >
-              Copy
-            </button>
-            <button
-              className="h-12 rounded-lg py-3 mx-4 px-5  bg-gray-900 text-gray-200 text-sm font-serif"
               onClick={passwordGenerator}
             >
               generate
+            </button>
+            <button
+              className="h-12 rounded-lg py-3 mx-5 px-5  bg-gray-900 text-gray-200 text-sm font-serif"
+              onClick={copyPassToClipboard}
+            >
+              Copy
             </button>
           </div>
           {/* creating a input type range form 1 to 100 */}
