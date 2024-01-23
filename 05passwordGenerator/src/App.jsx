@@ -87,13 +87,13 @@ function App() {
               ref={passwordRef}
             />
             <button
-              className="h-12 rounded-lg py-3 ml-3 px-5  bg-gray-900 text-gray-200 text-sm font-serif"
+              className="h-12 rounded-lg py-3 ml-3 px-5  bg-gray-900 text-gray-200 text-sm font-serif tracking-widest"
               onClick={passwordGenerator}
             >
-              generate
+              Generate
             </button>
             <button
-              className="h-12 rounded-lg py-3 mx-5 px-5  bg-gray-900 text-gray-200 text-sm font-serif"
+              className="h-12 rounded-lg py-3 ml-3 mr-5 px-5  bg-gray-900 text-gray-200 text-sm font-serif tracking-widest"
               onClick={copyPassToClipboard}
             >
               Copy
